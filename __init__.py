@@ -12,8 +12,8 @@ from ovos_workshop.skills.common_play import OVOSCommonPlaybackSkill
 class CultCinemaClassicsSkill(OVOSCommonPlaybackSkill):
     def __init__(self, *args, **kwargs):
         self.supported_media = [MediaType.MOVIE]
-        self.skill_icon = join(dirname(__file__), "ui", "ccc_icon.jpg")
-        self.default_bg = join(dirname(__file__), "ui", "ccc_logo.png")
+        self.skill_icon = join(dirname(__file__), "qt5", "ccc_icon.jpg")
+        self.default_bg = join(dirname(__file__), "qt5", "ccc_logo.png")
         self.archive = JsonStorageXDG("CultCinemaClassics", subfolder="OCP")
         self.media_type_exceptions = {
             # url 2 MediaType , if not present its a short film

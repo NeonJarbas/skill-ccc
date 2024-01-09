@@ -14,7 +14,7 @@ setup(
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
     package_dir={"skill_ccc": ""},
-    package_data={'skill_ccc': ['locale/*', 'ui/*']},
+    package_data={'skill_ccc': ['locale/*', 'res/*']},
     packages=['skill_ccc'],
     include_package_data=True,
     install_requires=["ovos_workshop~=0.0.5a1"],
